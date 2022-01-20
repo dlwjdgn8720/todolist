@@ -1,0 +1,33 @@
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.todolist{
+    margin: 1rem;
+}
+
+.todolist h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.todolist-add{
+    padding: 1rem;
+}
+
+#todo-list{
+    padding:1rem;
+    border:1px solid #333;
+}
+
+#todo-list > *{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:0.5rem;
+}
